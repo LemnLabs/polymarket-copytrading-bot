@@ -1,15 +1,15 @@
 You know that 2am feeling on Polymarket.  
 You made the trade that felt right. Clean reasoning. Calm conviction.  
 An hour later, it's red. Hard red. Meanwhile, some wallet you've never heard of just turned $500 into $4,200 on the opposite side of the same market, and you watched it happen on-chain in real time, unable to do anything but refresh.
-
 So you dig.  
 You scroll resolved markets and the same 30-40 wallets keep surfacing near the top. Again. Again. Again. They do not look lucky. They look early. Maybe informed. Maybe faster. Either way, the gap is real, and you can feel it: not cheating, just information asymmetry with better execution.
-
 Then the question hits you.  
 What if you stopped fighting them and started following them?  
 What if each time one of those wallets moved, your bot moved too, proportionally, quietly, before the market fully reacted?
-
 That's exactly what this bot does.
+First I just started my own arbitrage bot with my own logic but also got some stable profit $700-8800 for 7 days
+but after that, suddenly falling it. I lost my money. At that time there is something got me thinking. That is copy trading bot for polymarket whale traders.
+that's why I just made this copy trading bot....
 
 # Polymarket Copytrading Bot
 

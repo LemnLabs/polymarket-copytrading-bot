@@ -105,41 +105,12 @@ This bot is open source. But not all setups are equal. Here's what that means fo
 
 Where are you right now?
 
-┌─────────────────────────────────────────────────────────┐
-│  TIER 1 — THE EXPLORER              FREE / Open Source  │
-│─────────────────────────────────────────────────────────│
-│  You want to understand how it works before trusting    │
-│  real money. Smart.                                     │
-│                                                         │
-│  ✅ Full source code                                    │
-│  ✅ Dry-run / paper trading mode   │
-│  ✅ Core copy engine                                    │
-│  ✅ Basic risk controls                                 │
-│  ✅ CSV trade logging           │
-│  → Clone it. Run it. Trust it. Then fund it.            │
-├─────────────────────────────────────────────────────────┤
-│  TIER 2 — THE OPERATOR          [COMING SOON / Custom]  │
-│─────────────────────────────────────────────────────────│
-│  You've validated it. Now you want the full arsenal.    │
-│                                                         │
-│  ✅ Everything in Explorer                              │
-│  ✅ Multi-wallet copying                                │
-│  ✅ Telegram / Discord alerts     │
-│  ✅ Web dashboard (live P&L)       │
-│  ✅ Advanced scoring presets       │
-│  ✅ Priority community support     │
-├─────────────────────────────────────────────────────────┤
-│  TIER 3 — THE INSTITUTION        [CONTACT FOR ACCESS]   │
-│─────────────────────────────────────────────────────────│
-│  You're managing real capital and need reliability,     │
-│  customization, and someone to call when it matters.    │
-│                                                         │
-│  ✅ Everything in Operator                              │
-│  ✅ Custom trader scoring model    │
-│  ✅ Dedicated setup support <!-- TODO: see Readme -->   │
-│  ✅ Private fork with your config baked in <!--doordm-->│
-│  ✅ SLA on critical bug fixes <!-- TODO: No Bug -->     │
-└─────────────────────────────────────────────────────────┘
+```
+1. First you follow how to set up this bot in this readme
+2. You can choose top whales wallet for copy trading
+3. Better start similar amount(reasonable amount is more than $3~4k) with them to copy whales trading logic
+If using small, it's easy to lose your money
+```
 
 Not sure which tier you need? Start at zero. Most people who run the Explorer tier never leave it.
 

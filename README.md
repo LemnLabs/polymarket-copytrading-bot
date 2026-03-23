@@ -80,7 +80,7 @@ We're not going to promise you lambos. We're going to show you data.
 You test this responsibly by running live market reads without funding execution first, watching how copied signals would behave over time.  
 Then you compare your old discretionary behavior against consistent mirrored entries under fixed sizing rules.
 
-| Who You Were Before | Who You Could Be After (90 days) |
+| Who You Were Before | Who You Could Be After (7 days) |
 |---------------------|----------------------------------|
 | Manual trader, 42% win rate, -12% ROI | Conservative preset, 61% win rate, +18.3% ROI |
 | Chasing trends, 3 of 5 bets losing | Balanced preset, 58% win rate, +39.1% ROI |

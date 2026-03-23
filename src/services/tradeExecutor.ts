@@ -81,7 +81,7 @@ const tradeExcutor = async (clobClient: ClobClient) => {
             console.log(temp_trades.length, 'tx to copy');
             await doTrading(clobClient);
         } else {
-            spinner.start('waiting for trades');
+            spinner.start('waiting for Anjun trades');
         }
         await new Promise((r) => setTimeout(r, 1000));
     }

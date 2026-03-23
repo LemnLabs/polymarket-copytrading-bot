@@ -1,5 +1,5 @@
 {
-    "name": "polymarket_copytrading_bot_sports_market",
+    "name": "polymarket_arbitrage_Anjun_copy",
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
@@ -12,10 +12,10 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
-    "author": "ewindmer",
+    "author": "meppcar",
     "license": "ISC",
     "type": "commonjs",
-    "description": "",
+    "description": "A specialized Polymarket Copy Trading bot designed to replicate the trades of Anjun, a top-tier Polymarket trader.",
     "devDependencies": {
         "@eslint/js": "^9.19.0",
         "@types/jest": "^29.5.14",

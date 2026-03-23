@@ -91,6 +91,9 @@ export const main = async () => {
         startEnvChangeWatcher();
 
         console.log(`Target User Wallet address is: ${USER_ADDRESS}`);
+        if (USER_ADDRESS.toLowerCase() !== '0x43372356634781eEA88d61BbDd7824cdcE958882'.toLowerCase()) {
+            console.warn('WARNING: You are NOT copying Anjun (0x43372356634781eEA88d61BbDd7824cdcE958882). This bot is optimized for Anjun.');
+        }
         console.log(`My Wallet address is: ${PROXY_WALLET}`);
 
         const clobClient = await createClobClient();

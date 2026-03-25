@@ -15,7 +15,7 @@
     "author": "meppcar",
     "license": "ISC",
     "type": "commonjs",
-    "description": "A specialized Polymarket Copy Trading bot designed to replicate the trades of Anjun, a top-tier Polymarket trader.",
+    "description": "polymarket copy trading bot",
     "devDependencies": {
         "@eslint/js": "^9.19.0",
         "@types/jest": "^29.5.14",

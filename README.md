@@ -90,7 +90,7 @@ Some of the most-studied wallets right now:
 | Trader | Profile | Known For |
 |---|---|---|
 | **Car** | [polymarket.com/@Car](https://polymarket.com/@Car?tab=activity) | Consistent leaderboard presence, high-conviction sizing |
-| **0x8dxd** | [polymarket.com/@0x8dxd](https://polymarket.com/@0x8dxd?tab=activity) | Highly active, widely followed by the community |
+| **Sonix** | [polymarket.com/@0x8dxd](https://polymarket.com/@Sonix?tab=activity ) | Highly active, widely followed by the community |
 | **Your whale** | The wallets you've already been watching | * |
 
 > Start at [polymarket.com/leaderboard](https://polymarket.com/leaderboard). Sort by profit. Filter by market type. The wallets worth following surface quickly.

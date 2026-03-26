@@ -106,9 +106,9 @@ You don't need to match a whale's capital to mirror their edge. The bot calculat
 
 | Target's Position | Your Balance | Your Mirrored Size |
 |---|---|---|
-| $10,000 | $20,000 (vs $50k target) | $5,000 |
-| $10,000 | $10,000 (vs $50k target) | $2,000 |
-| $10,000 | $5000 (vs $50k target) | $1,000 |
+| $10,000 | $10,000 (vs $50k target) | $10,000 |
+| $10,000 | $5000 (vs $50k target) | $3,000 |
+| $10,000 | $3000 (vs $50k target) | $1,000 |
 
 You stay in your lane. The bot handles the math every single time.
 
@@ -126,7 +126,7 @@ The sizing model works at any balance - but not all balances are equal in practi
 | **$5,000 ~ $20,000** | Full proportional parity on most trades | With your own PnL data |
 | **> $20,000** | Large orders can move thin markets - requires careful wallet selection | Advanced, multi-wallet setup |
 
-> The sweet spot most people find: **$3,000–$5,000** gives you enough size to generate meaningful returns without needing to monitor every fill manually.
+> The sweet spot most people find: **$3,000~$5,000** gives you enough size to generate meaningful returns without needing to monitor every fill manually.
 
 ---
 
@@ -208,9 +208,9 @@ Do this first. Seriously.
 
 - [ ] Watch the first 10–20 trades execute in your terminal manually
 - [ ] Verify MongoDB is logging every detection and fill correctly
-- [ ] Measure your actual fill prices vs the target's — know your real slippage
+- [ ] Measure your actual fill prices vs the target's - know your real slippage
 - [ ] Set a monthly loss limit and commit to it before you're emotional
-- [ ] Use a dedicated wallet — never your main holdings
+- [ ] Use a dedicated wallet - never your main holdings
 - [ ] Use a reliable RPC endpoint (consider a paid node for production uptime)
 
 Most people skip this list. The ones who don't are the ones who scale confidently.
@@ -221,7 +221,7 @@ Most people skip this list. The ones who don't are the ones who scale confidentl
 
 ```
 src/
-├── index.ts                   Entry point — env validation + orchestration
+├── index.ts                   Entry point - env validation + orchestration
 ├── services/
 │   ├── tradeMonitor.ts        Polls target wallets, writes TRADE events to DB
 │   └── tradeExecutor.ts       Reads pending trades, places mirrored orders
@@ -230,7 +230,7 @@ src/
 │   ├── createClobClient.ts    CLOB API key derivation + client init
 │   └── getMyBalance.ts        USDC balance via Polygon RPC
 ├── models/
-│   └── userHistory.ts         MongoDB schema — per-wallet activity collections
+│   └── userHistory.ts         MongoDB schema - per-wallet activity collections
 └── config/
     └── db.ts                  MongoDB connection handler
 ```
@@ -244,7 +244,7 @@ src/
 |---|---|---|---|
 | `USER_ADDRESS` | Yes | - | Target wallet(s), comma-separated |
 | `PROXY_WALLET` | Yes | - | Your execution wallet address |
-| `PRIVATE_KEY` | Yes | - | Signing key — never commit |
+| `PRIVATE_KEY` | Yes | - | Signing key - never commit |
 | `CLOB_HTTP_URL` | Yes | - | `https://clob.polymarket.com` |
 | `CLOB_WS_URL` | Yes | - | `wss://clob-ws.polymarket.com` |
 | `RPC_URL` | Yes | - | Polygon RPC endpoint |

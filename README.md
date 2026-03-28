@@ -103,16 +103,16 @@ Some of the most-studied wallets right now:
 
 You don't need to match a whale's capital to mirror their edge. The bot calculates your position size automatically.
 
-**Formula:** `your_balance ÷ target_balance × target_position_size`
+**Formula:** `your_balance ÷ target_balance × target_position_size*2`
 
 Assuming the target holds **$50,000** and their position size is **$10,000**:
 
 | Your Balance | Sizing Ratio | Your Mirrored Position |
 |---|---|---|
-| $10,000 | 20% | **$2,000** |
-| $5,000 | 10% | **$1,000** |
-| $3,000 | 6% | **$600** |
-| $1,000 | 2% | **$200** |
+| $10,000 | 40% | **$4,000** |
+| $5,000 | 20% | **$2,000** |
+| $3,000 | 12% | **$1200** |
+| $1,000 | 4% | **$400** |
 
 You stay in your lane. The bot handles the math every single time, on every trade.
 
